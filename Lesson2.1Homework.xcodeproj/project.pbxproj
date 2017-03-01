@@ -13,6 +13,7 @@
 		5DF5B9491E66F3BA008A8B46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5B9471E66F3BA008A8B46 /* Main.storyboard */; };
 		5DF5B94B1E66F3BA008A8B46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5B94A1E66F3BA008A8B46 /* Assets.xcassets */; };
 		5DF5B94E1E66F3BA008A8B46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5B94C1E66F3BA008A8B46 /* LaunchScreen.storyboard */; };
+		5DF5B9561E66F469008A8B46 /* Подписи и печать.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5B9551E66F469008A8B46 /* Подписи и печать.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5DF5B94A1E66F3BA008A8B46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DF5B94D1E66F3BA008A8B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DF5B94F1E66F3BA008A8B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF5B9551E66F469008A8B46 /* Подписи и печать.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Подписи и печать.jpeg"; path = "../../../../Pictures/Подписи и печать.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		5DF5B93E1E66F3BA008A8B46 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5DF5B9551E66F469008A8B46 /* Подписи и печать.jpeg */,
 				5DF5B93F1E66F3BA008A8B46 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +143,7 @@
 				5DF5B94E1E66F3BA008A8B46 /* LaunchScreen.storyboard in Resources */,
 				5DF5B94B1E66F3BA008A8B46 /* Assets.xcassets in Resources */,
 				5DF5B9491E66F3BA008A8B46 /* Main.storyboard in Resources */,
+				5DF5B9561E66F469008A8B46 /* Подписи и печать.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lesson2.1Homework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "geekbrains.Lesson2-1Homework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lesson2.1Homework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "geekbrains.Lesson2-1Homework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
