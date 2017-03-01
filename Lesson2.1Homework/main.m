@@ -11,6 +11,13 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        
+        int firstVar = 5;
+        int secondVar = 6;
+        int result = firstVar + secondVar;
+        NSLog(@"%i", result);
+        
+        
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
